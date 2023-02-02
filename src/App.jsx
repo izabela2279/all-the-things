@@ -84,7 +84,7 @@ const App = () => {
   const dayThings = [
     {
       name: "money",
-      image: "https://imgs.xkcd.com/comics/coffee.png",  
+      image: "https://imgs.xkcd.com/comics/money.png",  
       attributes: ["fast", "easy", "fun", "fresh"],
     },
   ]
@@ -111,6 +111,10 @@ const App = () => {
       <Route
         path="/the-coffee-things"
         element={<CoffeeThings things={juanThings} />}
+      />
+      <Route
+        path="/the-money-things"
+        element={<MoneyThings things={dayThings} />}
       />
 
 
